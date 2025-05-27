@@ -1,4 +1,0 @@
-### Install Required Libraries
-Ensure you have the necessary Python libraries installed. Run the following command:
-
-pip install pandas numpy matplotlib wordcloud nltk scikit-learn
