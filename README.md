@@ -1,35 +1,83 @@
-### TEDX-recommendation-system
-## Project Overview
-This project focuses on developing a basic recommendation system that suggests TED Talks to users based on their topics of interest. By leveraging machine learning techniques, the system aims to provide personalized content recommendations, enhancing user engagement and experience.
- 
- ## Approach
-## 1.  Data Collection & Preprocessing
-Dataset: The dataset comprises TED Talks from 2006 to 2020, including details like the speaker's name, talk title, and more.
-Data Cleaning: Unnecessary columns are removed, and missing values are handled appropriately.
-Feature Engineering: New features such as the year and month of the talk are extracted from existing data.
-Text Consolidation: The 'title' and 'details' fields are combined to create a comprehensive text field for analysis.
+#### TED Talks Recommendation System Using Machine Learning
+## 📌  Overview
+This project aims to build a TED Talks Recommendation System that suggests talks based on user input using content-based filtering. It leverages Natural Language Processing (NLP) techniques and cosine similarity to recommend similar TED talks, enhancing user experience by helping them discover talks aligned with their interests.
 
-## 2. Text Processing
-Libraries Used: NLTK for natural language processing tasks.
-Stop Words Removal: Commonly used words that do not contribute to the meaning are removed.
-TF-IDF Vectorization: The text data is converted into numerical form using Term Frequency-Inverse Document Frequency (TF-IDF) to reflect the importance of words.
+## 🎯 Objective
+To recommend TED Talks based on a topic or a talk entered by the user.
+To implement a machine learning model that suggests similar content using text-based similarity.
+To enhance the discoverability of meaningful and relevant TED content.
 
-## 3. Similarity Computation
-Cosine Similarity: This metric is used to measure the similarity between different TED Talks based on their TF-IDF vectors.
+#### Tools & Technologies Used
+## Language: Python
+# .Libraries:
 
-## 4. Recommendation Generation
-User Input: The system takes a topic of interest as input from the user.
-Recommendation: Based on the input, the system identifies and recommends TED Talks that are most similar in content.
+.Pandas
 
-## Outcomes
-Functional Recommender System: Successfully built a basic content-based recommendation system for TED Talks.
-User Engagement: Enhanced the ability for users to discover talks aligned with their interests.
-Scalability: The approach can be extended to incorporate more sophisticated recommendation techniques in the future.
+.NumPy
 
-## Technologies & Tools
-Programming Language: Python
-Libraries:
-Pandas & NumPy for data manipulation
-Matplotlib & WordCloud for data visualization
-NLTK for text processing
-Scikit-learn for machine learning tasks
+.Matplotlib
+
+.Seaborn
+
+.NLTK (Natural Language Toolkit)
+
+.Scikit-learn (for TF-IDF Vectorizer & Cosine Similarity)
+
+.WordCloud (for visualization)
+
+## Dataset
+# Source: TED Talks Dataset (2006–2020)
+
+# Features Used:
+
+.Title
+
+.Description
+
+.Speaker
+
+.Event
+
+.Duration
+
+.Ratings
+
+.Tags
+
+### Methodology
+## 1. Data Preprocessing
+Removed duplicates and null values.
+
+Cleaned text data (e.g., lowercasing, removing punctuation, stop words).
+
+Merged relevant features (title, description, tags) into a single text field.
+
+## 2. Text Vectorization
+Used TF-IDF Vectorizer to convert text data into numerical form.
+
+## 3. Similarity Calculation
+Applied Cosine Similarity to compute the similarity between different TED Talks.
+
+## 4. Recommendation System
+Input: A keyword, title, or short description.
+
+Output: A list of top N similar TED Talks based on content.
+
+### Results
+Implemented a working content-based recommendation system.
+
+Achieved relevant recommendations for a variety of input topics.
+
+Visualized most common tags using a WordCloud.
+
+### Visualizations
+WordCloud of most frequent words in TED Talk descriptions.
+
+Bar plots showing distribution of talk durations and categories.
+
+
+
+
+
+
+
