@@ -1,4 +1,4 @@
-#### TED Talks Recommendation System Using Machine Learning
+### TED Talks Recommendation System Using Machine Learning
 ## 📌  Overview
 This project aims to build a TED Talks Recommendation System that suggests talks based on user input using content-based filtering. It leverages Natural Language Processing (NLP) techniques and cosine similarity to recommend similar TED talks, enhancing user experience by helping them discover talks aligned with their interests.
 
@@ -7,8 +7,8 @@ To recommend TED Talks based on a topic or a talk entered by the user.
 To implement a machine learning model that suggests similar content using text-based similarity.
 To enhance the discoverability of meaningful and relevant TED content.
 
-#### Tools & Technologies Used
-## Language: Python
+### Tools & Technologies Used
+# Language: Python
 # .Libraries:
 
 .Pandas
@@ -25,10 +25,10 @@ To enhance the discoverability of meaningful and relevant TED content.
 
 .WordCloud (for visualization)
 
-## Dataset
-# Source: TED Talks Dataset (2006–2020)
+# Dataset
+## Source: TED Talks Dataset (2006–2020)
 
-# Features Used:
+## Features Used:
 
 .Title
 
@@ -44,7 +44,7 @@ To enhance the discoverability of meaningful and relevant TED content.
 
 .Tags
 
-### Methodology
+# Methodology
 ## 1. Data Preprocessing
 Removed duplicates and null values.
 
@@ -63,14 +63,14 @@ Input: A keyword, title, or short description.
 
 Output: A list of top N similar TED Talks based on content.
 
-### Results
+# Results
 Implemented a working content-based recommendation system.
 
 Achieved relevant recommendations for a variety of input topics.
 
 Visualized most common tags using a WordCloud.
 
-### Visualizations
+# Visualizations
 WordCloud of most frequent words in TED Talk descriptions.
 
 Bar plots showing distribution of talk durations and categories.
