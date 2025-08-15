@@ -26,7 +26,7 @@ To enhance the discoverability of meaningful and relevant TED content.
 .WordCloud (for visualization)
 
 # Dataset
-### Source: TED Talks Dataset (2006–2020)
+### Source: TED Talks Dataset from kagggle
 
 ### Features Used:
 
